@@ -1,5 +1,6 @@
 body{
-    background-color: black;
+    background-color: #EEEEEE;
+    color: black;
 }
 .image1{
     height: 400px;
@@ -10,4 +11,12 @@ body{
 }
 #p1{
     text-align: center;
+}
+.body2{
+    background-color: #F0F0E1;
+}
+.container-fluid{
+    text-align: center;
+    color: black;
+    
 }
