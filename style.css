@@ -1,5 +1,5 @@
 body{
-    background-color: #EEEEEE;
+    background-color: #eeeee4;
     color: black;
 }
 .image1{
@@ -51,4 +51,30 @@ span{
 #foot{
     position: relative;
     top: 20px;
+}
+.service{
+    width: 39%;
+    height: 500px;
+    border: 1px solid white;
+    box-shadow:1px 1px white ;
+}
+#service{
+    background-color: whitesmoke;
+   
+}
+#loli3{
+    text-align: center;
+    margin-top: 40px;
+}
+.service1{
+    width: 39%; 
+    height: 500px;
+    border: 1px solid white;
+    box-shadow:1px 1px white ;
+}
+.service2{
+    width: 39%;
+    height: 500px;
+    border: 1px solid white;
+    box-shadow:1px 1px white ;
 }
