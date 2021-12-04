@@ -15,8 +15,16 @@ body{
 .body2{
     background-color: #F0F0E1;
 }
-.container-fluid{
+.flu{
     text-align: center;
-    color: black;
-    
+    color: black;   
+}
+#lol1{
+    text-align: center;
+    position: relative;
+    top: 80px;
+
+}
+.container{
+    margin-top: 100px;
 }
