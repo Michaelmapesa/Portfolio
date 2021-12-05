@@ -90,3 +90,14 @@ span{
 .body3{
     background-color: #873e23;
 }
+#checkbox,#input,#block,#btn,#intext{
+    margin-left: 90px;
+}
+.fli{
+    margin-left: 90px;  
+}
+#smoke{
+    background-color: whitesmoke;
+    margin-top: -80px;
+}
+
