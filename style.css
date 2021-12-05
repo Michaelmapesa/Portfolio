@@ -100,4 +100,14 @@ span{
     background-color: whitesmoke;
     margin-top: -80px;
 }
-
+#socialmedia{
+    text-align: center;
+}
+.logo>a>img{
+    height: 60px;
+    width: 60px;
+    display: block;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 10px;
+}
