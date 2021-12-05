@@ -38,35 +38,38 @@
     </nav>
     
      <div class="container">
-         <div class="card">
+         <div class="card" id="smoke">
             <form>
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
+                  <label for="exampleInputEmail1" id="intext">Email address</label>
                   <br>
                   <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                 </div>
-                <br><br>
-                <label for="exampleInputMessage">Message</label>
+                <br>
+                <label for="exampleInputMessage" id="intext">Message</label>
                 <br>
                 <input class="form-control input-lg textarea div,form-group has-warning has-feedback" id="inputWarning1" type="text" placeholder="ENTER YOUR MESSAGE">
-                <br><br>
+                <br>
                 <div class="form-group">
-                  <label for="exampleInputFile">File input</label>
+                  <label for="exampleInputFile" id="input">File input</label>
+                  <br>
+                  <input type="file" id="exampleInputFile" class="fli">
                   <br><br>
-                  <input type="file" id="exampleInputFile">
-                  <br><br>
-                  <p class="help-block">Example block-level help text here.</p>
+                  <p class="help-block" id="block">Example block-level help text here.</p>
                 </div>
                 <br>
                 <div class="checkbox" id="checkbox">
                    
                   <label>
-                    <input type="checkbox"> Check me out
+                    <input type="checkbox" > Check me out
                   </label>
                 </div>
                 <br>
-                <button type="submit" class="btn btn-default">Submit</button>
+                <!-- Contextual button for informational alert messages -->
+                <button type="button" id="btn" class="btn btn-info">SUBMIT</button>
               </form>
+              <br>
+              <p class="h5" id="socialmedia" >Socialmedia<span>links</span></p>
            
          </div>
 
